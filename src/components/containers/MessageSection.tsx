@@ -10,7 +10,7 @@ const MessageSection = ({toSend,name}:{toSend:string|null,name:string}) => {
 
 
   return (
-    <div className="w-full flex flex-col justify-end  border-4  bg-fuchsia-500">
+    <div className="w-full flex flex-col justify-end  border-4  ">
         <div className="text-lg w-full rounded-sm bg-background h-10 text-center">{name}</div>
        {toSend && user && <Messages toSend={toSend} user={user}/>}
        <Send toSend={toSend}/>

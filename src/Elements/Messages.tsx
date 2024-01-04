@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 import { User } from "firebase/auth"
 import {collection,getDocs,DocumentData,onSnapshot} from 'firebase/firestore'
 import { db } from "../../firebase"
-import {MessageCircle} from 'lucide-react'
 type Message  = {
 id:string
 }&DocumentData
